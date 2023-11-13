@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Hashes\PS2\ANM PAK.txt" />
+    <EmbeddedResource Include="Hashes\PS2\ANM.txt" />
+    <EmbeddedResource Include="Hashes\PS2\ATO.txt" />
+    <EmbeddedResource Include="Hashes\PS2\BMP.txt" />
+    <EmbeddedResource Include="Hashes\PS2\CNK.txt" />
+    <EmbeddedResource Include="Hashes\PS2\DFF.txt" />
+    <EmbeddedResource Include="Hashes\PS2\LEV.txt" />
+    <EmbeddedResource Include="Hashes\PS2\LUA.txt" />
+    <EmbeddedResource Include="Hashes\PS2\PAK.txt" />
+    <EmbeddedResource Include="Hashes\PS2\SCN.txt" />
+    <EmbeddedResource Include="Hashes\PS2\SEC.txt" />
+    <EmbeddedResource Include="Hashes\PS2\TXD.txt" />
+    <EmbeddedResource Include="Hashes\PS2\TXT.txt" />
+    <EmbeddedResource Include="Hashes\PS2\UNK.txt" />
+    <EmbeddedResource Include="Hashes\PS2\WLD.txt" />
+    <EmbeddedResource Include="Hashes\PS2\XB.txt" />
+  </ItemGroup>
+
+</Project>
